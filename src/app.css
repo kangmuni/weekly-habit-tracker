@@ -1,0 +1,100 @@
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+}
+
+.section {
+  margin: auto;
+  padding: 20px;
+  width: 60%;
+  height: 80%;
+  border-radius: 30px;
+  background-color: rgb(244, 238, 238);
+  box-shadow: 15px 15px 5px 0px rgba(74, 69, 69, 0.75);
+  -webkit-box-shadow: 15px 15px 5px 0px rgba(74, 69, 69, 0.75);
+  -moz-box-shadow: 15px 15px 5px 0px rgba(74, 69, 69, 0.75);
+}
+
+.header {
+  padding: 30px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.count {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.add-form {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 13%;
+}
+
+.add-input {
+  width: 240px;
+  height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(173, 170, 170);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  opacity: 0.6;
+  outline: none;
+  font-size: large;
+}
+
+.add-button {
+  width: 5%;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(134, 132, 132);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  font-size: large;
+}
+
+.table {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+.fa-minus-circle,
+.fa-plus-circle {
+  font-size: large;
+  border: none;
+  cursor: pointer;
+}
+
+.addCell {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-plus-circle {
+  margin-top: 10px;
+  margin-right: 5.5vw;
+}

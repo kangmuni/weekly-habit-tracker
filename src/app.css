@@ -21,19 +21,22 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   padding: 30px;
   font-size: 2em;
   font-weight: bold;
 }
 
 .count {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  padding: 5px 5px;
   margin-left: 5px;
   background-color: black;
   color: white;
-  border-radius: 50%;
-  padding: 5px;
+  border-radius: 10%;
+  text-align: center;
+  font-size: x-large;
 }
 
 .add-form {
@@ -82,10 +85,6 @@ td {
   height: 30px;
 }
 
-.delete {
-  border: none;
-}
-
 .fa-minus-circle,
 .fa-plus-circle {
   font-size: large;
@@ -100,5 +99,5 @@ td {
 
 .fa-plus-circle {
   margin-top: 10px;
-  margin-right: 5.4vw;
+  margin-right: 5.5vw;
 }

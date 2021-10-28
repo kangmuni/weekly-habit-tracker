@@ -82,6 +82,10 @@ td {
   height: 30px;
 }
 
+.delete {
+  border: none;
+}
+
 .fa-minus-circle,
 .fa-plus-circle {
   font-size: large;
@@ -96,5 +100,5 @@ td {
 
 .fa-plus-circle {
   margin-top: 10px;
-  margin-right: 5.5vw;
+  margin-right: 5.4vw;
 }

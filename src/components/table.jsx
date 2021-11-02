@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Caption from './caption';
 import Habits from './habits';
 
 class Table extends Component {
@@ -14,24 +15,32 @@ class Table extends Component {
     this.props.onDelete(habit);
   };
 
+  handleReset = (habit) => {
+    this.props.onReset(habit);
+  };
+
   render() {
     return (
       <>
         <table className="table">
-          <thead>
-            <tr>
-              <td></td>
-              <td>Mon</td>
-              <td>Tue</td>
-              <td>Wed</td>
-              <td>Thu</td>
-              <td>Fri</td>
-              <td>Sat</td>
-              <td>Sun</td>
-              <td>Total</td>
+          <Caption
+            onReset={this.handleReset}
+            totalCount={
+              this.props.habits.filter((habit) => habit.count > 0).length
+            }
+          />
+          <thead className="thead">
+            <tr className="thead-tr">
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+              <th>Sun</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody className="tbody">
             <Habits
               habits={this.props.habits}
               onDelete={this.handleDelete}
@@ -39,6 +48,9 @@ class Table extends Component {
               onDecrement={this.countDecrement}
             />
           </tbody>
+          <tfoot className="tfoot">
+            <tr colspan="7"></tr>
+          </tfoot>
         </table>
       </>
     );

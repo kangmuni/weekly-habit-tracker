@@ -4,8 +4,7 @@ class Header extends Component {
   render() {
     return (
       <header className="header">
-        <span>Weekly Habit Tracker</span>
-        <span className="count">{this.props.totalCount}</span>
+        <div>Create the perfect daily routine</div>
       </header>
     );
   }

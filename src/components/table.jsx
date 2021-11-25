@@ -20,6 +20,7 @@ class Table extends Component {
   };
 
   render() {
+    console.log('table');
     return (
       <>
         <table className="table">

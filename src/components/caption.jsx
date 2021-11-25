@@ -6,6 +6,7 @@ class Caption extends Component {
   };
 
   render() {
+    console.log('caption');
     return (
       <caption className="caption">
         <button className="habit-reset" onClick={this.handleReset}>

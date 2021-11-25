@@ -23,6 +23,7 @@ class Section extends Component {
   };
 
   render() {
+    console.log('section');
     return (
       <section className="section">
         <Table

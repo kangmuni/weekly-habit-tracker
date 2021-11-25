@@ -19,6 +19,7 @@ class Habits extends Component {
   };
 
   render() {
+    console.log('habits');
     return (
       <>
         {this.props.habits.map((habit) => (

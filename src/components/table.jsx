@@ -50,7 +50,9 @@ class Table extends Component {
             />
           </tbody>
           <tfoot className="tfoot">
-            <tr colspan="7"></tr>
+            <tr>
+              <td colSpan="7"></td>
+            </tr>
           </tfoot>
         </table>
       </>

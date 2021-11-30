@@ -14,10 +14,6 @@ class Section extends Component {
     this.props.onDelete(habit);
   };
 
-  handleAdd = (name) => {
-    this.props.onAdd(name);
-  };
-
   handleReset = (habit) => {
     this.props.onReset(habit);
   };

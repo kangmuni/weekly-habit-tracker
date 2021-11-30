@@ -26,9 +26,9 @@ input {
 }
 
 .header {
-  margin: 50px;
+  margin: 3rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .section {
@@ -54,17 +54,15 @@ input {
 }
 
 .table .caption {
-  position: sticky;
-  top: 0;
+  position: relative;
   padding: 25px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   background-color: rgb(243, 241, 240);
 }
 
 .table .caption .habit-reset {
   position: absolute;
   left: 30px;
-  font-size: xx-large;
   cursor: pointer;
   transition: all ease 0.1s;
 }
@@ -84,9 +82,15 @@ input {
   font-weight: bold;
 }
 
+.table .thead .thead-tr {
+  position: sticky;
+  top: 0;
+}
+
 .table .thead .thead-tr th {
   width: 100px;
   height: 40px;
+  padding: 7px;
   border-bottom: 3px solid rgb(228, 225, 225);
   background-color: rgb(238, 236, 236);
 }
@@ -104,36 +108,36 @@ input {
 
 .table .tbody .tbody-tr2 {
   background-color: rgb(231, 228, 228);
-  /* border-right: 1px solid rgb(219, 217, 217); */
   cursor: pointer;
 }
 
 .fa-minus-circle,
 .fa-plus-circle {
-  font-size: larger;
+  font-size: 1.15rem;
   border: none;
   cursor: pointer;
 }
 
 .add-form {
   position: absolute;
-  bottom: 7%;
-  right: 19.6%;
+  bottom: 4%;
+  right: 19.25%;
 }
 
 .add-form .add-input {
-  background-color: rgb(28, 190, 73);
-  color: black;
-  opacity: 0.9;
-  padding: 15px;
-  margin-right: 20px;
-  border-radius: 10px;
-  font-size: x-large;
+  padding: 10px 20px 10px 20px;
+  margin-right: 1rem;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: rgb(243, 241, 241);
+  box-shadow: 5px 5px 5px 0px rgba(95, 92, 92, 0.75);
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(95, 92, 92, 0.75);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(95, 92, 92, 0.75);
 }
 
-.tfoot {
+.tfoot tr {
   position: sticky;
   bottom: 0;
-  height: 100px;
-  background-color: rgb(28, 190, 73);
+  height: 50px;
+  background-color: rgb(243, 241, 240);
 }

@@ -2,9 +2,6 @@ import React, { PureComponent } from 'react';
 
 class Habit extends PureComponent {
   handleClick = (event) => {
-    const r = 231;
-    const g = 228;
-    const b = 228;
     const target = event.target;
     if (target.className === 'isCheck') {
       target.style.backgroundColor = 'rgb(28, 190, 73)';
@@ -13,7 +10,7 @@ class Habit extends PureComponent {
       return;
     }
     if (target.className === 'isCheck checked') {
-      target.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
+      target.style.backgroundColor = 'rgb(231, 228, 228)';
       target.classList.toggle('checked');
       this.countDecrement();
       return;

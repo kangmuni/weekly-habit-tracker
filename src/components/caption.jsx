@@ -10,7 +10,7 @@ class Caption extends Component {
     return (
       <caption className="caption">
         <button className="habit-reset" onClick={this.handleReset}>
-          📍
+          🌱
         </button>
         <div className="subtitle">
           <span className="name">My habits</span>

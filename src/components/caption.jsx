@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 
 class Caption extends Component {
   handleReset = () => {
-    this.props.onReset(this.props.habit);
+    this.props.onReset();
+    window.location.replace('/main');
   };
 
   render() {

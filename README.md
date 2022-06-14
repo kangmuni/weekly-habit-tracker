@@ -2,10 +2,8 @@
 Create React App 사용, `yarn start`로 실행
 
 > **스택**
-1. HTML
-2. CSS
-3. React
-4. React Hooks
+1. CSS
+2. React : state, props, component 사용법에 대한 숙지
 
 > **기능**
 1. 새로운 습관 추가, 기존의 습관 삭제 

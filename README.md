@@ -3,9 +3,11 @@ Create React App 사용, `yarn start`로 실행
 
 > **스택**
 1. CSS
-2. React : state, props, component 사용법에 대한 이해, jsx와 react-dom 문법 숙지
+2. React : 클래스 컴포넌트 사용
   - 컴포넌트 단위를 사용한 조립식으로 재사용성과 유지보수가 용이함
   - Virtual DOM의 존재가 필요한 돔 트리만 업데이트하게 해줌
+  - state, props, component 사용법에 대한 이해
+  - jsx와 react-dom 문법 숙지
 > **기능**
 1. 새로운 습관 추가, 기존의 습관 삭제 
 2. 새싹 아이콘 누르면 리셋
